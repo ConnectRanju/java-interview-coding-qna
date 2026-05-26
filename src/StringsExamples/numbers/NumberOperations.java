@@ -19,7 +19,7 @@ public class NumberOperations {
         List<Integer> list1 = set.stream().map(n -> n).toList();
         //System.out.println(list1);
 
-    //2.Find Duplicates
+    //2.Find Duplicates numbers.
         Set<Integer> seen=new HashSet<>();
     Set<Integer> duplicates= list.stream().filter(n->!seen.add(n)).collect(Collectors.toSet());
         //System.out.println(duplicates);
