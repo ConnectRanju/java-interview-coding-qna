@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 public class NumberOperations {
     public static void main(String[] args) {
 
-        //1.Remove Duplicates
+        //1.Remove Duplicates from a List
 
         List<Integer> list = Arrays.asList(1,2,3,4,2,3,5);
         // list.stream().distinct().forEach(System.out::println);
